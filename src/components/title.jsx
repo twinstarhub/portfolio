@@ -12,11 +12,11 @@ const Title = memo(() => {
         <div className="line"></div>
         <h1>Fullstack & AI Developer</h1>
         <h3>
-          "Client happiness is the unmistakable outcome of my impactful endeavors, a testament to the positive impact I consistently deliver."<br/><br/> 
-          Fullstack & AI Developer, boasting a professional journey spanning more than 7 years.<br/>
-          In personal life, maintain a calm and unassuming demeanor.
-          However, in professional pursuits, known for the confidence and adaptability.<br/>
-          And actively contribute the technical skills to diverse projects, striving to offer innovative solutions and demonstrate my proficiency.
+          "My clients’ happiness is the real provement of my efforts, and it is a motivation to boost myself."<br/><br/> 
+          Fullstack & AI Developer, boasting a professional journey with more than 7 years.<br/>
+          In personal life, I am maintaining a calm and kind manner.<br/>
+          However, in professional business, I have been known for the confidence and adaptability.<br/>
+          And I actively contribute the technical skills to various projects, striving to offer innovative solutions and demonstrate my proficiency.
         </h3>
       </div>
     </section>
