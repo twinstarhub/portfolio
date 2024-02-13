@@ -119,7 +119,7 @@ const Portfolio = memo(({ refs }) => {
             </div>
             <a
               className="button"
-              href="https://www.berlitz.com/"
+              href="https://github.com/twinstarhub/AI_Social_Good"
             >
               publish link
             </a>
