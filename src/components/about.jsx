@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 import "../styles/about.scss";
-import img from "../images/saylovedev.png";
+import img from "../images/henryjames.png";
 
 import {
   IoPerson,
@@ -29,22 +29,22 @@ const About = memo(({ refs }) => {
           <ul>
             <li>
               <div className="info-li">
-                <IoPerson className="icon" /> Chris Yule
+                <IoPerson className="icon" /> Henry James
               </div>
             </li>
             <li>
               <div className="info-li">
-                <IoLocationSharp className="icon" /> Ehime, Japan
+                <IoLocationSharp className="icon" /> Dublin, Ireland
               </div>
             </li>
             <li>
               <div className="info-li">
-                <IoMailSharp className="icon" /> saylove.dev@gmail.com
+                <IoMailSharp className="icon" /> misssilverbeauty0927@gmail.com
               </div>
             </li>
             <li>
               <div className="info-li">
-                <IoCalendarClearOutline className="icon" /> 1998.09.27
+                <IoCalendarClearOutline className="icon" /> 1996.09.27
               </div>
             </li>
           </ul>

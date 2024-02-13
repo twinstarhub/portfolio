@@ -1,5 +1,7 @@
 import React, { useCallback, useState, memo } from "react";
 import "../styles/navbar.scss";
+import henryjames from "../images/henryjames.png";
+
 
 import { MdMenu } from "react-icons/md";
 
@@ -14,7 +16,7 @@ const Navbar = memo(({ handleScroll }) => {
     <>
       <header>
         <nav className="navbar">
-          <div className="navbar__logo">Say<span>❤️</span>dev</div>
+          <div className="navbar__logo"><span><img src={henryjames} alt="Haroro" /></span>haroro.ai</div>
 
           <ul className="navbar__menu">
             <li>
