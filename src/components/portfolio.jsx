@@ -14,6 +14,8 @@ import AI_Social_Good from "../images/AI_Social_Good.gif";
 import Plant_AI from "../images/Plant_AI.gif";
 import Face_Recognition from "../images/Face_Recognition.jpeg";
 import Pytorch_CNN_Visualizations from "../images/Pytorch_CNN_Visualizations.png";
+import Django_eccomerce_amazon from "../images/Django-eccomerce-amazon.png";
+import OpenUnited from "../images/OpenUnited.jpg";
 
 const Portfolio = memo(({ refs }) => {
   return (
@@ -109,7 +111,7 @@ const Portfolio = memo(({ refs }) => {
             <div className="picture-area">
               <img src={AI_Social_Good} alt="Sorry, failed to load an image." />
             </div>
-            <div className="title">AI Social Good<br/>Suicidal Ideation Detection In Online Social Content</div>
+            <div className="title">AI Social Good<br/>[Suicidal Ideation Detection In Online Social Content]</div>
             <div className="contents">
               <br />
               <b>Descriptoin:</b> The rise of social media and online communities creates safe and anonymous spaces for individuals to share their thoughts about their mental health and express their feelings and sufferings in online communities. To prevent suicide, it is necessary to detect suicide-related posts and user's suicide ideation in cyberspace by natural language processing methods.
@@ -183,6 +185,48 @@ const Portfolio = memo(({ refs }) => {
             <a
               className="button"
               href="https://github.com/twinstarhub/Pytorch_CNN_Visualizations"
+            >
+              publish link
+            </a>
+          </div>
+        </div>
+        <div className="portfolio-info-area">
+          <div className="portfolio-info">
+            <div className="picture-area">
+              <img src={Django_eccomerce_amazon} alt="Sorry, failed to load an image." />
+            </div>
+            <div className="title">Django Eccomerce Amazon</div>
+            <div className="contents">
+              <br />
+              <b>Descriptoin:</b> Admin Signin Page, Admin Category List Page, Admin Category Create Page, Admin Category Update Page, , Admin Sub Category List Page, Admin Sub Category Create Page, ...
+              <br />
+              <br />
+              <b>Tech stacks :</b> Django, Java script, Html, Css, Scss, Python<br />
+            </div>
+            <a
+              className="button"
+              href="https://github.com/twinstarhub/django-ecommerce-project-amazon-clone"
+            >
+              publish link
+            </a>
+          </div>
+        </div>
+        <div className="portfolio-info-area">
+          <div className="portfolio-info">
+            <div className="picture-area">
+              <img src={OpenUnited} alt="Sorry, failed to load an image." />
+            </div>
+            <div className="title">OpenUnited Platform</div>
+            <div className="contents">
+              <br />
+              <b>Descriptoin:</b> Big database management with Django.
+              <br />
+              <br />
+              <b>Tech stacks :</b> Django, JavaScript, Html, Tailwind CSS, Python, PostgreSQL, Ubuntu<br />
+            </div>
+            <a
+              className="button"
+              href="https://github.com/twinstarhub/Django-marketplace"
             >
               publish link
             </a>
