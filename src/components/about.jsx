@@ -29,12 +29,12 @@ const About = memo(({ refs }) => {
           <ul>
             <li>
               <div className="info-li">
-                <IoPerson className="icon" /> Henry James
+                <IoPerson className="icon" /> Henry James(アキラ たろ)
               </div>
             </li>
             <li>
               <div className="info-li">
-                <IoLocationSharp className="icon" /> Dublin, Ireland
+                <IoLocationSharp className="icon" /> Ehime, Japan
               </div>
             </li>
             <li>
