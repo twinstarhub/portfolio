@@ -16,7 +16,7 @@ const Navbar = memo(({ handleScroll }) => {
     <>
       <header>
         <nav className="navbar">
-          <div className="navbar__logo"><span><img src={henryjames} alt="Haroro" /></span>haroro.ai</div>
+          <div className="navbar__logo"><span><img src={henryjames} alt="Haroro" /></span>haroro</div>
 
           <ul className="navbar__menu">
             <li>
