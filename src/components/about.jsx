@@ -29,7 +29,7 @@ const About = memo(({ refs }) => {
           <ul>
             <li>
               <div className="info-li">
-                <IoPerson className="icon" /> Henry James(アキラ たろ)
+                <IoPerson className="icon" /> Henry James(亨利·詹姆斯)
               </div>
             </li>
             <li>
