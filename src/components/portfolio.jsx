@@ -7,9 +7,13 @@ import ecommerce_flutter from "../images/ecommerce_flutter.jpeg";
 import cipia from "../images/cipia.jpg";
 import eurocupid from "../images/eurocupid.png";
 import berlitz from "../images/berlitz.png";
+import salesforce from "../images/salesforce.png";
+import parsleyhealth from "../images/parsleyhealth.png";
 import zetaShop from "../images/zetaShop.png";
 import bayzat from "../images/bayzat.png";
 import Troyz from "../images/Troyz.png";
+import storyfile from "../images/storyfile.png";
+import chatdoc from "../images/chatdoc.png";
 import AI_Social_Good from "../images/AI_Social_Good.gif";
 import Plant_AI from "../images/Plant_AI.gif";
 import Face_Recognition from "../images/Face_Recognition.jpeg";
@@ -22,7 +26,49 @@ const Portfolio = memo(({ refs }) => {
     <section ref={refs} className="portfolio-section">
       <div className="section-title">RECENT PROJECTS</div>
       <div className="portfolio-content">
-      <div className="portfolio-info-area">
+        <div className="portfolio-info-area">
+          <div className="portfolio-info">
+            <div className="picture-area">
+              <img src={storyfile} alt="Sorry, failed to load an image." />
+            </div>
+            <div className="title">Storyfile</div>
+            <div className="contents">
+              <br />
+              <b>Descriptoin:</b> A: When you create a StoryFile, you'll video record yourself answering our curated "StoryLines" - lists of all the questions anyone would ever want to ask you. That way when people talk to your StoryFile, it will respond with the best possible answer to any question they ask.
+              <br />
+              <br />
+              <b>Stack: </b> React, Framer, Speech-to-Text, Python, GPT, Langchain <br />
+            </div>
+            <a
+              className="button"
+              href="https://storyfile.com/"
+            >
+              publish link
+            </a>
+          </div>
+        </div>
+        <div className="portfolio-info-area">
+          <div className="portfolio-info">
+            <div className="picture-area">
+              <img src={chatdoc} alt="Sorry, failed to load an image." />
+            </div>
+            <div className="title">Chatdoc</div>
+            <div className="contents">
+              <br />
+              <b>Descriptoin:</b> You can use ChatDOC to either chat with your PDFs and documents or to summarize your PDFs. ChatDOC is an AI chatbot that uses your written documents as data.
+              <br />
+              <br />
+              <b>Stack: </b> React, Gatsby, Bootstrap, Chainlit, Langchain <br />
+            </div>
+            <a
+              className="button"
+              href="https://chatdoc.com/"
+            >
+              publish link
+            </a>
+          </div>
+        </div>
+        <div className="portfolio-info-area">
           <div className="portfolio-info">
             <div className="picture-area">
               <img src={Troyz} alt="Sorry, failed to load an image." />
@@ -93,7 +139,7 @@ const Portfolio = memo(({ refs }) => {
             <div className="title">Berlitz</div>
             <div className="contents">
               <br />
-              <b>Descriptoin:</b> Language Learning Software.<br/>We are more than just a language school: With Berlitz, you can train your intercultural competence, discover the digital world by training new IT skills.
+              <b>Descriptoin:</b> Language Learning Software.<br />We are more than just a language school: With Berlitz, you can train your intercultural competence, discover the digital world by training new IT skills.
               <br />
               <br />
               <b>Tech stacks :</b> Natural Language Processing, Tensorflow, Django, Python <br />
@@ -106,12 +152,56 @@ const Portfolio = memo(({ refs }) => {
             </a>
           </div>
         </div>
+
+        <div className="portfolio-info-area">
+          <div className="portfolio-info">
+            <div className="picture-area">
+              <img src={parsleyhealth} alt="Sorry, failed to load an image." />
+            </div>
+            <div className="title">Parsley health</div>
+            <div className="contents">
+              <br />
+              <b>Descriptoin:</b> Converted design mock-up build with Sketch into pixel-perfect pages with React.
+              <br />
+              <br />
+              <b>Tech stacks :</b> React, Firebase, Ant Design, Redux, Next.js, TailwindCSS <br />
+            </div>
+            <a
+              className="button"
+              href="https://www.parsleyhealth.com/"
+            >
+              publish link
+            </a>
+          </div>
+        </div>
+        <div className="portfolio-info-area">
+          <div className="portfolio-info">
+            <div className="picture-area">
+              <img src={salesforce} alt="Sorry, failed to load an image." />
+            </div>
+            <div className="title">Salesforce</div>
+            <div className="contents">
+              <br />
+              <b>Descriptoin:</b> I integrated for a report generator. The user just need to input the key word and it automatically generate the report based on the template that I have in Python in conjunction with Salesforce. Not only that, the system also conduct a financial calculation that have to be attached in the report itself.
+              <br />
+              <br />
+              <b>Tech stacks :</b> Python, ML, NLP, Salesforce, Next.js, TailwindCSS, PostgreSQL <br />
+            </div>
+            <a
+              className="button"
+              href="https://www.catch.com.au/"
+            >
+              publish link
+            </a>
+          </div>
+        </div>
+
         <div className="portfolio-info-area">
           <div className="portfolio-info">
             <div className="picture-area">
               <img src={AI_Social_Good} alt="Sorry, failed to load an image." />
             </div>
-            <div className="title">AI Social Good<br/>[Suicidal Ideation Detection In Online Social Content]</div>
+            <div className="title">AI Social Good<br />[Suicidal Ideation Detection In Online Social Content]</div>
             <div className="contents">
               <br />
               <b>Descriptoin:</b> The rise of social media and online communities creates safe and anonymous spaces for individuals to share their thoughts about their mental health and express their feelings and sufferings in online communities. To prevent suicide, it is necessary to detect suicide-related posts and user's suicide ideation in cyberspace by natural language processing methods.
@@ -132,7 +222,7 @@ const Portfolio = memo(({ refs }) => {
             <div className="picture-area">
               <img src={Plant_AI} alt="Sorry, failed to load an image." />
             </div>
-            <div className="title">Plant AI<br/>[Recognition of Plant Diseases by Leaf Image Classification]</div>
+            <div className="title">Plant AI<br />[Recognition of Plant Diseases by Leaf Image Classification]</div>
             <div className="contents">
               <br />
               <b>Descriptoin:</b> This project is an approach to the development of plant disease recognition model, based on leaf image classification, by the use of deep convolutional networks. The developed model is able to recognize 38 different types of plant diseases out of of 14 different plants with the ability to distinguish plant leaves from their surroundings.
@@ -156,7 +246,7 @@ const Portfolio = memo(({ refs }) => {
             <div className="title">Facial Recognition and Emotion Detection</div>
             <div className="contents">
               <br />
-              <b>Descriptoin:</b> Humans are used to non verbal communication. The emotions expressed increases the clarity of any thoughts and ideas. It becoms quite interesting when a computer can capture this complex feature of humans, ie emotions. This topic talks about building a model which can detect an emotion from an image. 
+              <b>Descriptoin:</b> Humans are used to non verbal communication. The emotions expressed increases the clarity of any thoughts and ideas. It becoms quite interesting when a computer can capture this complex feature of humans, ie emotions. This topic talks about building a model which can detect an emotion from an image.
               <br />
               <br />
               <b>Tech stacks :</b> Data gathering and augmentation, Model building, Training, Testing <br />
@@ -240,9 +330,9 @@ const Portfolio = memo(({ refs }) => {
             <div className="title">Laravel Ecommerce</div>
             <div className="contents">
               <br />
-              <b>Descriptoin:</b> The Laravel Ecommerce Project with Complete Source Code is a PHP-based web application. <br/>Features: 
-                <br/>User Dashboard, Admin Dashboard, Mobile-Friendly Website, 3 Step Booking Process, Order Tracking, Email Notifications, Subscriber Form, A product search form, Payment Gateway(PayU) Integrated, Shopping Cart in a Responsive Layout, Pre-Defined Content with High-Resolution Photos
-                Search engine optimization (SEO) for Products, Recommendations and related products in our categories.
+              <b>Descriptoin:</b> The Laravel Ecommerce Project with Complete Source Code is a PHP-based web application. <br />Features:
+              <br />User Dashboard, Admin Dashboard, Mobile-Friendly Website, 3 Step Booking Process, Order Tracking, Email Notifications, Subscriber Form, A product search form, Payment Gateway(PayU) Integrated, Shopping Cart in a Responsive Layout, Pre-Defined Content with High-Resolution Photos
+              Search engine optimization (SEO) for Products, Recommendations and related products in our categories.
               <br />
               <br />
               <b>Tech stacks :</b> Php, Vue, Sql, Bootstrap <br />
