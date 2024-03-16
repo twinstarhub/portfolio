@@ -34,7 +34,7 @@ const Portfolio = memo(({ refs }) => {
             <div className="title">Storyfile</div>
             <div className="contents">
               <br />
-              <b>Descriptoin:</b> A: When you create a StoryFile, you'll video record yourself answering our curated "StoryLines" - lists of all the questions anyone would ever want to ask you. That way when people talk to your StoryFile, it will respond with the best possible answer to any question they ask.
+              <b>Descriptoin:</b> When you create a StoryFile, you'll video record yourself answering our curated "StoryLines" - lists of all the questions anyone would ever want to ask you. That way when people talk to your StoryFile, it will respond with the best possible answer to any question they ask.
               <br />
               <br />
               <b>Stack: </b> React, Framer, Speech-to-Text, Python, GPT, Langchain <br />
